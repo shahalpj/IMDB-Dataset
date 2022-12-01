@@ -1,4 +1,4 @@
-
+#first we need to mount data from the drive
 
 from google.colab import drive
 drive.mount('/content/drive/')

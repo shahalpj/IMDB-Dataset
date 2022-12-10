@@ -20,7 +20,7 @@ print(imdb_df.columns)
 
 """##After reading all Qs. now subsetting out columns neceesary for answering the question in order to get proper insights
 
-#### **keep all columns which are non null
+#### **keep all columns which are non null.
 """
 
 columns_to_keep= ['budget', 'genres','original_language', 'original_title','cast', 'crew', 'revenue']

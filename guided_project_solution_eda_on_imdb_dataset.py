@@ -51,7 +51,7 @@ imdb_df.loc[~imdb_df['crew'].isna(),'crew']= imdb_df.loc[~imdb_df['crew'].isna()
 #creating a copy of orginal df
 imdb_df_new = imdb_df.copy()
 
-imdb_df_new.head(3)
+imdb_df_new.head(2)
 
 """#Q1.Which movie made the highest profit? Who were its producer and director? Identify the actors in that film."""
 
